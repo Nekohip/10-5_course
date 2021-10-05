@@ -27,4 +27,3 @@ for i in range(5):
     if bingo == True :
         break
 print(f"結束!答案是{x}")
-    
