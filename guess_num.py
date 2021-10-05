@@ -4,8 +4,8 @@ zone1 = int(input("輸入最小值"))
 zone2 = int(input("輸入最大值"))
 x =  random.randint(zone1,zone2)
 #print(x)
-for i in range(5):
-    n=5
+for i in range(10):
+    n=10
     bingo = False
     while True:
         try:
