@@ -28,4 +28,5 @@ for i in range(10):
 	        print(e)
     if bingo == True :
         break
-print(f"結束!答案是{x}")
+if bingo == False:
+    print(f"結束!答案是{x}")
