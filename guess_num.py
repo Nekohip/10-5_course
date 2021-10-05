@@ -17,10 +17,12 @@ for i in range(10):
                 break
             if num > x :
                 print("猜小一點")
-                zone2 = num-1
+                if num < zone2:
+                    zone2 = num-1
             else:
                 print("猜大一點")
-                zone1 = num+1
+                if num > zone1:
+                    zone1 = num+1
             break
         except Exception as e:
 	        print(e)
